@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Register Page</title>
+	<link rel="stylesheet" href="color/color.css">
+	<style>
+	body{
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+	#register
+	{
+		background-color: green;
+		height: 60px;
+		width: 90px;
+		color: aliceblue;
+		border-radius: 5px;
+	}
+	#reset
+	{
+		background-color: green;
+		height: 60px;
+		width: 90px;
+		color: aliceblue;
+		border-radius: 5px;
+	}
+	#h4
+	{
+		color: red;
+		background-color: rgb(223, 213, 213);
+	}
+	label{
+		color: white;
+		font-weight: bolder;
+	}
+	</style>
+</head>
+<body style="background-image: url(image/apar.jpg)">
+	<center>
+			<img src="image/17239-200.png" height="85px" width="85px">
+		</center>
+
+
+	<center>
+		<form method="post" id="myform" class="container" action="adminRegister.php">
+					<fieldset>
+					<legend>Register Now</legend>
+					<label>
+						<center>
+								UserName:<input type="text" name="UserName" placeholder="Enter your User Name"><br>
+								Password:<input type="password" name="password" minlength="8" required="" placeholder="Your Password"><br>
+								Gender:  <input type="text" name="gender" placeholder="Enter your Gender" required=".com"><br>
+								Phone:   <input type="text" name="phone" placeholder="Enter your phone number" required=".com"><br>
+							    E-mail:  <input type="email" name="Email" placeholder="Enter your Email address" required=".com"><br>
+						
+						
+					<input id="register" type="submit" name="Register" id="login_btn" value="SingUp">
+					<input id="reset" type="reset" name="reset" id="login_btn"><br>
+					<p><a href="login.php"><h4 id="h4">Back to Login</h4></a></p>
+				</label>
+				</fieldset>
+			</center>
+				
+
+				</form>
+			</center>
+
+
+	
+</body>
+</html>

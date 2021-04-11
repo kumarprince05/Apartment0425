@@ -1,0 +1,18 @@
+header{
+font-weight: 20px;
+font-size: 30px;
+font-style: bold;
+text-align: center;
+border:5px solid red;
+border-width: inline-block;
+padding-bottom: 3px;
+line-height: 20px;
+}
+header1{
+
+}
+nav{
+	margin-right: 50px;
+	margin-left: 20px;
+	text-align: center;
+}

@@ -1,0 +1,112 @@
+body{
+	
+}
+div.container{
+  font-weight: solid;
+  font-size: 20px;
+  border: 5px solid 255,255,255;
+  font-color:red;
+
+}
+header {
+	text-shadow: 2px 2px 8px #FF0000;
+	font-size: 30px;
+	border: 5px solid red;
+  border-spacing: 98px;
+  border-radius: 8px;
+  font-color:rgb(255,0,0);
+  background-image: url(https://images.unsplash.com/photo-1566568520656-5d720b27d046?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+}
+.h1{
+	text-shadow: ;
+	font-size: 20px;
+	border: 5px solid 255,255,255;
+	font-color:red;
+}
+.main-wrapper{
+	width:50%;
+	margin:0 auto;
+	background:5px;
+	border-radius:10px;
+	border:2px solid #2c3e50;
+	background-color:#d1d8e0;
+	font-size: 15px;
+}
+#container{
+	font-color:red;
+  
+}
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 40px;
+  margin-right: 18px;
+
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 30%;
+  padding: 12px 15px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 25px;
+  display: inline-block;
+  margin-right: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 25px;
+  display: inline-block;
+  margin-right: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#Full{
+  width: 50%;
+  padding: 120px 200px;
+  margin: 8px 25px;
+  display: inline-block;
+  margin-right: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+#submit_btn{
+  margin-top:5px;
+  margin-left: 150px;
+  background-color:#26de81;
+  padding:5px;
+  color:red;
+  width:30%;
+  text-align:center;
+  font-size:18px;
+  font-weight:bold;
+  border-radius:30px;
+}

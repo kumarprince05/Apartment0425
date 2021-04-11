@@ -1,0 +1,102 @@
+
+
+.myform{
+	margin-left: 5px;
+	max-height: 90px;
+	background-color: red;
+
+}
+
+#main-wrapper{
+	margin: 10px 15px;
+	border: 5px solid red;
+	border-radius: 13px;
+}
+h1{
+	display: block;
+	padding: 5px 5px 5px 5px;
+	font-size: 30px;
+	text-orientation-color:purple;
+	border: 5px dashed green;
+	box-sizing: 10px;
+	text-align: center;
+	table-layout: inherit;
+
+	text-decoration-color: currentColor;
+}
+div{
+	text-align: center;
+	padding: 10px 10px;
+	padding-bottom: 5px;
+	margin: 20px 12px;
+
+}
+
+form{
+	text-align: left;
+	padding: 10px 10px;
+	padding-bottom: 5px;
+	margin: 2px 2px;
+	line-height: 2;
+
+}
+#login_btn{
+	margin-top:5px;
+	background-color:#26de81;
+	padding:5px;
+	color:red;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:30px;
+}
+
+
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 40px;
+  margin-right: 18px;
+
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 30%;
+  padding: 12px 15px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 25px;
+  display: inline-block;
+  margin-right: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+img{
+	transition: all 1s;
+
+}
+img:hover{
+	transform: scale(1.1);
+}
